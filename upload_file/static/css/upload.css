@@ -1,0 +1,10 @@
+.upload {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(25, 17, 65);
+    padding: 10px;
+  }
+
+h2 {
+    text-align: center;
+}
