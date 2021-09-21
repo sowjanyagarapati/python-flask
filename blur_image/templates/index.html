@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <div class="welcome">
+            <h1>Welcome</h1>
+        </div>
+        <ul>
+            <li><a href="{{ url_for('upload_file') }}">Upload Here</a></li>
+        </ul>
+    </body>
+</html>
